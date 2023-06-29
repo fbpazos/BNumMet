@@ -1,0 +1,6 @@
+tox
+pytest
+pytest-cov
+black
+jupyter-black
+nistrng

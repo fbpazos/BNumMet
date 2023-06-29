@@ -1,0 +1,10 @@
+numpy
+bqplot==0.12.36
+matplotlib
+ipywidgets==8.0.4
+jupyter
+jupyter_client == 7.4.9
+ipykernel
+scipy
+seaborn
+nistrng

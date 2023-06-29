@@ -1,0 +1,12 @@
+{
+    
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+   
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.provider": "black",
+    "sonarlint.connectedMode.project": {
+        "connectionId": "Sonarqube-Localhost",
+        "projectKey": "BNumMet"
+    }
+}

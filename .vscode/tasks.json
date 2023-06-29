@@ -1,0 +1,21 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sonar",
+            "type": "shell",
+            "command": ".\\Utilities\\SonarScanner.bat && java -jar .\\Utilities\\ReportGenerator.jar -p BNumMet  -s http://127.1.0.1:9000 -o ./Report/%date:~6,4%-%date:~3,2%-%date:~0,2% && explorer \"http://localhost:9000/dashboard?id=BNumMet\" ",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            
+        }
+    ]
+}
